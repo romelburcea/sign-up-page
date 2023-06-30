@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="pic">
+        <!-- <div class="interior">
+            <img class="thedude" src="thedude.png">
+            <div class="text">BLISS</div>
+        </div>     -->
+        <!-- <img src="436.jpg" alt="lebowski" class="thedude"> -->
+    </div>
+    <div class="rightside">
+    
+        <div class="Form">
+
+            <h1>Sign Up... For Absolutely Nothing!</h1>
+            <h2>You have nothing to gain, and nothing to lose. You just have to sit here with me.</h2>
+            <h3>By making an account on this page, something which is impossible at the moment, you sign in to life itself! 
+                You dare to do something out of the ordinary, you subcribe to nothingness. You just go with the flow, and all that mumbo-jumbo. 
+                Everything that I wrote here is only for a bit more style to the page, since more writing brings more joy to my eyes.</h3>
+
+            <form onsubmit="return checkPassword(this)" class="form1" action="signup.com/path" method="post">
+                    <div class="details">
+                    
+                        <label for="first_name">*First name</label>
+                        <input type="text" id="first_name" required placeholder="Write your first name" minlength="3">
+
+                        <label for="last_name">*Last name</label>
+                        <input type="text" id="last_name" required placeholder="Write your last name" minlength="4">
+
+                        <label for="email">*Your email</label>
+                        <input type="email" id="email" required placeholder="seinfeld@gmail.com">
+
+                        <label for="pass">*Type a password</label>
+                        <input type="password" name="password1" id="pass" required placeholder="Nothingness">
+
+                        <label for="confirmed">*Confirm password</label>
+                        <input type="password" name="password2" id="confirmed" required placeholder="Repeat the nothingness">
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" value="Submit">Sign Up! It's fun!</button>
+                        <button type="reset">Reset if wrong</button>
+                    </div>
+
+            </form>
+        </div>
+        
+    </div>   
+    <script src="extern.js" defer></script> 
+</body>
+</html>
